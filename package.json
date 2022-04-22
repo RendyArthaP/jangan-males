@@ -1,0 +1,45 @@
+{
+  "name": "next-travel",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+	"*.{js,jsx,ts,tsx}": [
+	  "prettier --write",
+    "eslint --fix"
+	]
+},
+  "dependencies": {
+    "next": "12.1.5",
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25",
+    "@types/prettier": "^2.6.0",
+    "@types/react": "^18.0.6",
+    "@types/react-dom": "18.0.2",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "8.13.0",
+    "eslint-config-kentcdodds": "^20.2.0",
+    "eslint-config-next": "12.1.5",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-yml": "^0.14.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^12.4.0",
+    "prettier": "^2.6.2",
+    "ts-node": "^10.7.0",
+    "typescript": "4.6.3"
+  }
+}
