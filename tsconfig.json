@@ -19,4 +19,13 @@
     "paths": {
       "~/*": ["./*"]
     }
+  },
+  "exclude": ["node_modules"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "commonjs",
+      "sourceMap": true
+    }
   }
+}
