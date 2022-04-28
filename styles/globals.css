@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
   height: 100%;
+  font-family: 'Poppins', sans-serif;
+  background-color: #FEFCF9;
 }
 
 main {
@@ -13,8 +18,8 @@ main {
   display: block;
   width: 100%;
   min-height: 100vh;
-  margin: 20px auto 20px;
-  border: 1px solid black;
+  margin: auto;
+  max-width: 1200px;
 }
 
 ::-webkit-scrollbar {
