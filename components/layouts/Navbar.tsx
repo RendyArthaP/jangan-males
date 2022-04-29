@@ -10,31 +10,33 @@ const Navbar = () => {
     <div className="w-full h-14">
       <div className="px-4 max-w-7xl h-full mx-auto md:px-20">
         <div className="flex flex-row h-full items-center justify-between">
-          <Link href='/'>
-            <h1 className="text-orange font-bold text-2xl">
-              ScaleUp
+          <div className='flex flex-row items-center'>
+            <Link href='/'>
+            <h1 className="text-orange font-bold text-xl font-bebas">
+              janganmales.com
             </h1>
           </Link>
           <div className="hidden md:flex flex-row items-center">
             <Link href='/'>
-              <span className="text-orange font-normal text-base mx-4">
+              <span className="text-orange font-normal text-sm mx-4">
                 Tutorial
               </span>
             </Link>
             <Link href='/'>
-              <span className="text-orange font-normal text-base mx-4">
+              <span className="text-orange font-normal text-sm mx-4">
                 Blogs
               </span>
             </Link>
             <Link href='/'>
-              <span className="text-orange font-normal text-base mx-4">
+              <span className="text-orange font-normal text-sm mx-4">
                 Mentoring
               </span>
             </Link>
           </div>
+          </div>
           <div className="hidden md:flex">
             <Link href='/'>
-              <h1 className="text-orange font-normal text-base">
+              <h1 className="text-orange font-normal text-sm">
                 Login
               </h1>
             </Link>

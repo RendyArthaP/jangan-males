@@ -10,7 +10,9 @@ module.exports = {
         'orange': '#F7A440'
       },
       fontFamily: {
-        'roboto': ['Roboto', 'sans-serif']
+        'roboto': ['Roboto', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
+        'bebas': ['Bebas Neue', 'cursive']
       }
     },
   },
