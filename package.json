@@ -9,7 +9,8 @@
     "start": "next start",
     "format": "prettier --write \"./**/*.{ts,tsx}\"",
     "lint": "eslint \"**/*.{js,jsx,ts,tsx,yml,yaml}\"",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "release": "standard-version"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,yml,yaml}": [
