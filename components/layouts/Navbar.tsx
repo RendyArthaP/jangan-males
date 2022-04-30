@@ -13,7 +13,7 @@ const Navbar = () => {
           <div className='flex flex-row items-center'>
             <Link href='/'>
             <h1 className="text-orange font-bold text-xl font-bebas">
-              janganmales.com
+              janganmales
             </h1>
           </Link>
           <div className="hidden md:flex flex-row items-center">
