@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/RendyArthaP/next-travel/compare/v0.1.2...v0.1.3) (2022-04-30)
+
+
+### Features
+
+* change title ([015b18f](https://github.com/RendyArthaP/next-travel/commit/015b18f8e77c8d2414b9afe52cfba74f7173c24a))
+
 ### 0.1.2 (2022-04-29)
 
 
